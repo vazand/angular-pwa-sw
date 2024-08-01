@@ -24,7 +24,8 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/my-service-worker"
             ],
             "styles": [
               "src/styles.css"
@@ -45,7 +46,8 @@
                   "maximumError": "4kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "serviceWorker": "ngsw-config.json"
             },
             "development": {
               "optimization": false,
@@ -82,7 +84,8 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/my-service-worker"
             ],
             "styles": [
               "src/styles.css"
